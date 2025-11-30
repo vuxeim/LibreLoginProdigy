@@ -1,17 +1,6 @@
-
-
-# Maintenance update 🚀 ❗❗❗minecraft 1.21.10
-
-After couple of weeks I've decided to make a move towards new login plugin which is currently under development.
-I'm not going to maintain this plugin anymore, but still I'm open to PR's with 1.21.10 support.
-Here's the new plugin repo: https://github.com/Navio1430/NavAuth. I'm open to literally any support (even by leaving a star) with code, docs, ideas etc. also anything from todo's list.
-
-<br><br>
-<br><br>
 <div display="flex" justify-content="space-between" align="center">
- <h1>LibreLoginProd 🔐 - autologin plugin</h1>
-  <p>Fork of the <b>LibreLogin</b> (previously LibrePremium) which has caused many problems with newest minecraft versions.
-LibreLogin did not meet our expectations, which is why this fork was created.</p>
+ <h1>LibreLoginProdigy 🔐 - autologin plugin</h1>
+  <p>This (LibreLoginProdigy<b>igy</b>) is a temporary fork of LibreLoginProd which was a fork of the <b>LibreLogin</b> (previously LibrePremium). LibreLoginProd is no longer actively maintained (as the author stated) and the original LibreLogin did not meet our expectations, which is why this second fork was created.</p>
 </div>
 <br>
 <br>
@@ -41,33 +30,31 @@ alt="Contributors listed"></img>
 - Name validation (including case sensitivity check)
 - Automatic data migration for premium players
 - Migration of a player's data by using one command
-- Geyser (Bedrock) support using [Floodgate](https://github.com/Navio1430/LibreLoginProd/wiki/Floodgate)
 
 ## Platforms ⚙️
-- [✔️] Velocity - up to 1.21.8
-- [✔️] Paper - up to 1.21.8
-- [❌] BungeeCord - no longer supported, do not use it for production
+- [✔️] Velocity - up to 1.21.10
+- [✔️] Paper - up to 1.21.10
+- [❌] BungeeCord
 
 ## Main changes 
 
 - [📚] Support for the newest Minecraft Paper and Velocity versions
-
-- [❌] No more support for BungeeCord (maybe will be brought back in future)
-- [❌] Removed compatibility with NanoLimboPlugin (should not be used on prod)
+- [❌] No more support for BungeeCord
+- [❌] Removed compatibility with NanoLimboPlugin
 
 # FAQ
 
-### What does prod mean?
+### What does «Prod» mean?
 This means that the project is a heavily modified version intended for production use.
-
-### Why is the plugin almost 5MB?
-We are currently trying to go down to 500KB, but first we need
-to divide whole project into submodules.
 
 ### Will the folder name change after installation?
 No, we use the same folder and config names as original the **LibreLogin**.
 
-# License
+### Will this fork be maintained?
+Yes, we plan to maintain this fork and keep it updated with the latest Minecraft versions.
+Though, we cannot guarantee long-term support and any new features.
+Ultimately, you should consider using a more actively maintained plugin in the future like [NavAuth](https://github.com/Navio1430/NavAuth) (when it will be fully released).
 
+# License
 Project is licensed under the Mozilla Public License 2.0.
 [Read the license here.](https://github.com/Navio1430/LibreLoginProd/blob/master/LICENSE)
